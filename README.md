@@ -33,8 +33,8 @@ This script can be re-used for any other election with two minor modifications. 
 This would require only two code changes:
 
 1. Capture the election district name from the .csv header row, index of 1:
-![Capture election district name from .csv header](https://github.com/noble190/dabc_election_analysis/blob/main/resources/mod1.png)
+![Capture election district name from .csv header](https://github.com/noble190/dabc_election_analysis/blob/main/Resources/mod1.png)
 
 2. Update any hardcoded references to 'County' in the script output to use the newly created variable:
-![Update hardcoded election district names with references to the new election district variable](https://github.com/noble190/dabc_election_analysis/blob/main/resources/mod2.png)
+![Update hardcoded election district names with references to the new election district variable](https://github.com/noble190/dabc_election_analysis/blob/main/Resources/mod2.png)
 
