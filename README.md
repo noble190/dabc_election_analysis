@@ -28,3 +28,13 @@ The election summary includes:
 * The winner of the election is Diana DeGette, with 272,892 votes (73.8% of total votes)
 
 ## Summary
+This script can be re-used for any other election with two minor modifications. As-is, it uses a hardcoded name for the election district - 'County', which may not be relevant for all elections. This script can easily be made more dynamic by reading the election district name from the data .csv file, instead.
+
+This would require only two code changes:
+
+1. Capture the election district name from the .csv header row, index of 1:
+![Capture election district name from .csv header](https://github.com/noble190/dabc_election_analysis/blob/main/resources/mod1.png)
+
+2. Update any hardcoded references to 'County' in the script output to use the newly created variable:
+![Update hardcoded election district names with references to the new election district variable](https://github.com/noble190/dabc_election_analysis/blob/main/resources/mod2.png)
+
