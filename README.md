@@ -38,3 +38,4 @@ This would require only two code changes:
 2. Update any hardcoded references to 'County' in the script output to use the newly created variable:
 ![Update hardcoded election district names with references to the new election district variable](https://github.com/noble190/dabc_election_analysis/blob/main/Resources/mod2.png)
 
+The above changes would result in a script that is applicable to a much wider range of elections.
